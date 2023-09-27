@@ -14,7 +14,7 @@ function logIn() {
         if (emailLoginInput.value === users[i].email && passwordLoginInput.value === users[i].password ) {
             console.log(users[i].name, users[i].password);
             localStorage.setItem("userName", users[i].name)
-            location.href='../../home.html';
+            location.href='../html./home.html';
         } else {
             getAlertMessage('Email or Password incorrect','red');
         }
@@ -53,8 +53,5 @@ loginBtn.addEventListener('click', () => {
 
 if (localStorage.getItem('userName')) {
     console.log("done");
-    location.href = '../home.html';
-} else {
-    location.href != '../home.html';
-
-}
+    location.href = '../html/home.html';
+} 
