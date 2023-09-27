@@ -1,0 +1,16 @@
+body {
+background-color: #eee;
+}
+#welcome {
+  width: 60%;
+  min-height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.623);
+  border-radius: 15px;
+  margin: 200px auto 0;
+}
+input {
+  color: black !important;
+}
